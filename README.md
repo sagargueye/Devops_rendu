@@ -16,7 +16,7 @@ ENV POSTGRES_DB=db \
 	POSTGRES_PASSWORD=sagar
 COPY *.sql /docker-entrypoint-initdb.d/
 ````
-liste d'instructions suivante dans le Dockerfile:
+liste d'instructions possible dans le Dockerfile:
 - FROM: permettre de definir limage utilisée comme base de notre image(image source)
 - ADD : copier du contenu depuis la machine vers limage docker en crs de construction
 - CMD : la commande qui sera lancer par le conteneur lors de son execution 
