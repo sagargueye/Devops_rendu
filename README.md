@@ -22,7 +22,7 @@ liste d'instructions possible dans le Dockerfile:
 - CMD : la commande qui sera lancer par le conteneur lors de son execution 
 - VOLUME : permet d'indiquer quel répertoire vous voulez partager avec votre host.
 - WORKDIR : specifier le répertoir courant 
-- COPY : copier du contenu depuis la machine vers le conteneur ["<src>",... "<dest>"]
+- COPY : copier du contenu depuis la machine vers le conteneur [src,... dest]
 - ENV : definir les variables d'environnement qui sera utilisé
 - EXPOSE: permet de définir les ports d'écoute par défaut (le port qui sera exposer coté conteneur)
 - USER : specifier l'utilisateur
