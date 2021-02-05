@@ -129,7 +129,7 @@ docker-Compose est un outil permettant de définir et d'exécuter des applicatio
 Avec Compose, on utilise un fichier YAML pour configurer les services de notre application. 
 Ensuite, avec une seule commande, on crée et démarre tous les services à partir de notre configuration.
 
-* `lancer docker-compose: ``$ docker-compose up -d```
+* lancer docker-compose: ```$ docker-compose up -d```
 * on go to the home page de notre application : http://localhost/
 * ensuite dans http://localhost/departments/IRC,  ajouter un student
 * restart la base: ```$ docker-compose restart database```
