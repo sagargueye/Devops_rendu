@@ -43,6 +43,7 @@ etc...
     * ```$ docker run --rm --name postgres -d -p 5432:5432 -v "C:/Users/Utilisateur/Desktop/CPE/semestre 8/Devops/tp1_docker/database:/var/lib/postgresql/data" sagargueye/postgres```
 
 PROBLEME: ya un soucis car postgres et adminer communique pas. 
+
 SOLUTION:
 * pour faire communiquer adminer et posgres, je dois les mettre dans le mm reseau 
 * creation reseaux: ```$ docker network create mon_reseau```
@@ -52,11 +53,11 @@ SOLUTION:
 
 ### Testing: on va se connecter sur adminer pour verifier si tout est ok (presence de notre base de données et de nos données)
 pour se connecter au adminer postgres: http://localhost:8080/adminer/
-systeme: postgresSql
-serveur: postgres
-bd_name: db
-user: sagar
-pwd: sagar
+* systeme: postgresSql
+* serveur: postgres
+* bd_name: db
+* user: sagar
+* pwd: sagar
 
 ### exemple 2: application JAVA qui affiche "hello world"
 * Dockerfile:
